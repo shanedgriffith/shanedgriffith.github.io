@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <!-- for more information about the sitemap, see https://www.google.com/webmasters/tools/docs/en/protocol.html -->
+   <url>
+      <loc>http://www.ece.iastate.edu/~shaneg/</loc>
+      <lastmod>2009-05-14</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://www.ece.iastate.edu/~shaneg/research.html</loc>
+	  <lastmod>2009-05-21</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>http://www.ece.iastate.edu/~shaneg/index.html</loc>
+      <lastmod>2009-05-14</lastmod>
+      <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+   </url>
+</urlset>
