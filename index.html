@@ -18,33 +18,17 @@
 </head>
 
 <body>
-  <table bgcolor="white" width="100%" border="0" cellpadding="0" cellspacing="0">
-    <!-- <tr>
-	<table width="700" bgcolor="#442211" border="7" bordercolor="#442211" cellspacing="0" cellpadding="0">
-	</table>
-  </tr> -->
-
-    <TABLE border="1" bordercolor="#FFFFFF" bgcolor="#FFF8DC" BORDER="0" CELLPADDING="6" CELLSPACING="2" WIDTH="100%">
-      <tr>
-        <td width="50%" valign="center" align="center">
-          <a class="header" href="index.html">About Me</a>
-        </td>
-        <!-- <td width="33%" valign="center" align="center">
-          <a class="header" href="projects.html">Research</a>
-        </td> -->
-        <td width="50%" valign="center" align="center">
-          <a class="header" href="publications.html">Full Publication List</a>
-        </td>
-      </tr>
-    </TABLE>
+  <table class="background" width="100%" border="0" cellpadding="0" cellspacing="0">
 
     <tr>
-      <td width="690" align="left" valign="top">
-        <table width="672" border="0" cellspacing="0" cellpadding="0">
+      <td width="100%" align=" left" valign="top">
+        <table class="background" width="100%" border="0" cellspacing="0" cellpadding="0">
 
           <!-- adds spacing to the top and left -->
           <tr>
+            <!-- <br> -->
             <td width="40">&nbsp;</td>
+            <!-- <td width="552">&nbsp;</td> -->
             <td width="552">&nbsp;</td>
           </tr>
           <tr>
@@ -54,13 +38,13 @@
             <!-- finally, the content of the page.-->
             <td>
               <p> <!--keep this <p> so the heading is aligned with 'Home' -->
-              <table cellspacing="0" cellpadding="0">
+              <table class="background" cellspacing="0" cellpadding="0">
                 <tr>
                   <td valign="top">
                     <div style="margin-top: 2px; margin-left: 1px;">
                       <img
-                        style="border-left:15px solid gray; border-right:15px solid gray; border-color: #f5f5f5; width: 10.8Em"
-                        src="images/self.jpg">
+                        style="border-left:15px solid black; border-right:15px solid black; border-color: #CDD2C5; width: 16.2Em"
+                        src="images/self2.png">
                     </div>
                   </td>
                   <td valign="top" class="maincontent">
@@ -74,12 +58,18 @@
                       <font face="Garamond" style="font-size: 12pt"> Ph.D. Georgia Tech.</font>
                       <br>
                       <font face="Garamond" style="font-size: 12pt"> M.S., B.S. Iowa State.</font>
-                      <br> <IMG style="height: 1.3em" SRC="./images/email2.bmp"> <br><br>
-                      <h5>LINKS</h5>
-                      <ul>
-                        <!--<li><a href="http://www.youtube.com/user/SGriffithResearch">Youtube.</a></li>-->
-                        <li><a href="https://scholar.google.fr/citations?user=urgfWQgAAAAJ&hl=en">Scholar.</a></li>
-                        <li><a href="https://www.linkedin.com/pub/shane-griffith/4/b05/4a4">LinkedIn.</a></li>
+                      <br>
+                      <!-- <IMG style="height: 1.3em" SRC="./images/email2.bmp"> <br><br> -->
+                      <!-- <h5>LINKS</h5> -->
+                      <ul class="social-icons">
+                        <!-- <ul> -->
+                        <li><a href="https://scholar.google.fr/citations?user=urgfWQgAAAAJ&hl=en"><img width=25
+                              src="images/icons/scholar.svg" alt="Google Scholar"></a></li>
+                        <li><a href="https://www.linkedin.com/in/shane-griffith-4a4b054"><img width=25
+                              src="images/icons/linkedin.svg" alt="LinkedIn"></a></li>
+                        <li><a href="https://twitter.com/shanedgriffith"><img width=25 src="images/icons/twitter.svg"
+                              alt="Twitter"></a></li>
+
                       </ul>
                       <p>
                         <!-- <h5>NEWS</h5> -->
@@ -96,8 +86,8 @@
         </table>
 
     <tr>
-      <td width="690" align="left" valign="top">
-        <table width="672" border="0" cellspacing="0" cellpadding="0">
+      <td width="100%" align="left" valign="top">
+        <table class="background" width="100%" border="0" cellspacing="0" cellpadding="0">
 
           <!-- determine the spacing of the two columns -->
           <tr>
@@ -131,171 +121,437 @@
                   <a href="https://www.youtube.com/watch?v=dGglN4J9zZ0">World's First "Driver Out" Fully Autonomous
                     Semi-Truck Operating on Open Public Roads.</a><br>
                   [<a
-                    href="https://patents.google.com/patent/US20220227380A1/en?inventor=Shane+Griffith&oq=inventor:(Shane+Griffith)">patent
-                    1</a>]
-                  [<a href="files/multi-sensor_sequential_calibration_system_at_tusimple.pdf">slides 1</a>]
+                    href="https://patents.google.com/patent/US20220227380A1/en?inventor=Shane+Griffith&oq=inventor:(Shane+Griffith)">patent</a>]
+                  [<a href="files/multi-sensor_sequential_calibration_system_at_tusimple.pdf">slides</a>]
                   <br>
                   TuSimple.
                   <p>
                   <div style="text-align:right; float:right;">(2020)&nbsp;</div>
                   <a href="https://vimeo.com/446861900">Fyusion 360 Image Capture</a><br>
-                  [<a href="https://patents.google.com/patent/US20220408019A1/en">patent 1</a>]
-                  [<a href="files/viewpoint_path_modeling.pdf">slides 1</a>]
+                  [<a href="https://patents.google.com/patent/US20220408019A1/en">patent</a>]
+                  [<a href="files/viewpoint_path_modeling.pdf">slides</a>]
                   <br>
                   Fyusion
                 </ul>
                 <p>
                   <br>
-                  <!--<h5>Selected Publications</h5>-->
-                <h5>SELECTED PUBLICATIONS</h5>
-                <ul>
+                <h5>[<span class="summary-link" data-target="full-publication-list">+</span>] SELECTED PUBLICATIONS</h5>
+                <table class="background" width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                  <tr>
+                    <td width="40" style="vertical-align: top; text-align: center;">[<span class="summary-link"
+                        data-target="summary1">+</span>]</td>
+                    <td width="552">
+                      <div style="text-align:right; float:right;">(2019)&nbsp;</div>
+                      <a href="research/griffith2019.pdf">Transforming Multiple Visual
+                        Surveys of a Natural Environment Into Time-Lapses.</a>
+                      <br>
+                      [<a href="files/natural_environment_monitoring_at_georgia_tech.pdf">slides</a>]
+                      [<a href="phd_demo.mp4">video</a>]
+                      [<a href="https://dream.georgiatech-metz.fr/datasets/">dataset</a>]
+                      <br>
+                      Shane Griffith, Frank Dellaert, and Cedric Pradalier.<br>
+                      <i>International Journal of Robotics Research (IJRR).</i> <br>
+                      <p>
+                      <div style="text-align:right; float:right;">(2016)&nbsp;</div>
+                      <a href="research/griffith_pradalier_bmvc_2016.pdf">Reprojection Flow for Image Registration
+                        Across
+                        Seasons.</a>
+                      <br>
+                      Shane Griffith and Cedric Pradalier.<br>
+                      <i>British Machine Vision Conference (BMVC)</i>, York, UK. <br>
+                      <div id="summary1" style="display: none;">
+                        <br>
+                        <hr>
+                        Vision is one of the primary sensory modalities of animals and robots, yet among robots it still
+                        has
+                        limited power in natural environments. Dynamic processes of Nature continuously change how an
+                        environment looks, which work against appearance-based methods for visual data association. As a
+                        robot is deployed again and again, the possibility of finding correspondences diminishes between
+                        surveys increasingly separated in time. This is a major limitation of intelligent systems
+                        targeted
+                        for precision agriculture, search and rescue, and environment monitoring. So for my PhD Cedric
+                        and I
+                        saught a new approach to visual data association to overcome the variation in appearance of a
+                        natural environment, as it was experienced by a field robot over several years.
+
+                        <p>
+                          We found success with a map-centric approach, which builds on 3D vision to achieve visual
+                          data association across seasons. We first created the Symphony Lake Dataset, which consists
+                          of fortnightly visual surveys of a 1.3 km lakeshore captured from an autonomous surface
+                          vehicle
+                          over three years. We then established dense correspondence as a technique to both provide
+                          robust
+                          visual data association and to eliminate the variation in viewpoint between surveys. Given a
+                          consistent map and localized poses, visual data association across seasons is achieved with
+                          the
+                          integration of map point priors and geometric constraints within the dense correspondence
+                          image
+                          alignment optimization. We called this algorithm "Reprojection Flow".
+
+                        <p>
+                          We presented the first work to see through the variation in appearance across seasons in
+                          a natural environment using map point priors and localized poses. Our algorithm for
+                          map-anchored
+                          dense correspondence showed a substantial gain on visual data association in the midst of the
+                          difficult variation in appearance. Up to 37 surveys were transformed into year-long
+                          time-lapses at
+                          the scenes where their maps were consistent. This indicates that, at a time when frequent
+                          advancements are made towards robust visual data association, the spatial information in a map
+                          may
+                          be able to close the distance where hard cases have persisted between observations.
+                          <hr><br>
+                      </div>
+                      <p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td width="40" style="vertical-align: top; text-align: center;">[<span class="summary-link"
+                        data-target="summary2">+</span>]</td>
+                    <td width="552">
+                      <div style="text-align:right; float:right;">(2013)&nbsp;</div>
+                      <a href="research/nips2013.pdf">Policy Shaping: Integrating Human Feedback with Reinforcement
+                        Learning.</a> <br>
+                      [<a href="files/policy_shaping.pdf">slides</a>]
+                      [<a href="research/Advise.py">code</a>]
+                      [<a href="research/nips2013_appendix.pdf">appendix</a>]
+                      <br>
+                      Shane Griffith, Kaushik Subramanian, Jon Scholz, Charles Isbell, and Andrea Thomaz.<br>
+                      <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, 2625-2633, Lake Tahoe, Nevada.
+                      <br>
+                      <div id="summary2" style="display: none;">
+                        <br>
+
+                        <hr>
+                        I passed the Qual after investigating how robots might learn without being labeled defective.
+                        Although a large body of work already addresses how a robot might explore its environment in
+                        order
+                        to learn and adapt to it, the risks of exploration are commonly overlooked. Few papers addressed
+                        how
+                        a robot could reliably stay out of harm's way if it is left to freely explore. After I saw this
+                        problem, my research goal was to investigate how robots could avoid committing serious errors
+                        while
+                        exploring.
+
+                        <p>
+                          A step towards error free learning is made possible with a new insight about how to learn from
+                          human feedback. Feedback interpreted as a direct label on the optimality of an action can
+                          provide
+                          a way to eliminate hazardous sections of the state space. This is in contrast to most previous
+                          work in which feedback is interpreted as a reward (e.g., reward shaping), which creates
+                          something
+                          like a trail of breadcrumbs for coaxing an agent out of an undesirable or dangerous area. Our
+                          new
+                          ``policy shaping'' approach to interactive machine learning called for a fundamentally new way
+                          to
+                          use feedback with reinforcement learning.
+
+                        <p>
+                          We ended up deriving a simple, yet rigorous, information theoretic algorithm to maximize the
+                          information gained from human feedback, which we named <b>Advise</b>. Our experiments showed
+                          <b>Advise</b> in some cases significantly outperformed state-of-the-art methods, and was
+                          robust to
+                          noise. It also eliminates the ad hoc parameter tuning common of methods that interpret
+                          feedback as
+                          a reward. These advancements were presented at the 1st Biennial Conference on
+                          Reinforcement Learning and Decision Making (RLDM), where it was one of the top four papers,
+                          and
+                          published in the 27th Annual Conference on Neural Information Processing Systems (NeurIPS).
+
+                          <hr>
+                          <br>
+                      </div>
+                      <p>
+
+                    </td>
+                  </tr>
+
+
+                  <tr>
+                    <td width="40" style="vertical-align: top; text-align: center;">[<span class="summary-link"
+                        data-target="summary3">+</span>]</td>
+                    <td width="552">
+                      <div style="text-align:right; float:right;">(2012)&nbsp;</div>
+                      <a href="research/IEEEtran_AMD_2011_preprint - without pics.pdf">A Behavior-Grounded Approach to
+                        Forming Object Categories:<br> Separating Containers from Non-Containers.</a>
+                      <br>
+                      [<a href="files/object_categorization_in_the_sink.pdf">slides</a>]
+                      [<a href="https://www.youtube.com/watch?v=xvEJdMFx1to">videos</a>]
+                      <br>
+                      Shane Griffith, Jivko Sinapov, Vlad Sukhoy, and Alex Stoytchev,<br>
+                      <i>IEEE Transactions on Autonomous Mental Development (TAMD)</i>, 4:1, 54-69. <br>
+                      <div id="summary3" style="display: none;">
+                        <br>
+                        <hr>
+                        I earned my M.S. after 3.5 years of studying what a container is, and how a humanoid robot can
+                        learn
+                        what a container is. Although a growing body of literature in robotics addressed many different
+                        container manipulation problems, individual papers only chipped away at isolated problems one by
+                        one. This meant that the algorithms for one domain were not directly applicable to other
+                        domains.
+                        After I saw this problem, the goal of my thesis was to identify how a robot could start to learn
+                        about containers in a more general way.
+
+                        <p>
+                          Because people have a representation of containers that is generalizable across many different
+                          container manipulation problems, I looked to psychology for all the information on the origins
+                          of
+                          container learning. Psychologists observed that infants form an abstract spatial category for
+                          containers, which allows them to apply their knowledge to novel containers. At the time,
+                          however,
+                          the current theories of object categorization weren't clear about exactly how infants form an
+                          object category for containers. Consequently, I looked more deeply into the psychology
+                          literature
+                          in order to try and understand how infants learn.
+
+                        <p>
+                          By citing many different theories and observations from psychology, I extrapolated an
+                          explanation
+                          for how infants learn object categories. As a result of the expertise of the whole team, we
+                          were
+                          able to create a computational framework for learning object categories in a similar way by a
+                          robot. Our experiments with containers showed that this method of object categorization really
+                          works, and it works really well.
+
+                        <p>
+
+                          Our work was well received when we submitted it to the IEEE Transactions on Autonomous Mental
+                          Development (TAMD) for publication in their journal. An eminent developmental psychologist
+                          reviewed the object categorization theory (the expertise of
+                          the other two reviewers was robotics), and in her "comments to the author" that we received
+                          when
+                          the paper was accepted, she signed her name in her review (reviews are usually anonymous) and
+                          said:
+                        <blockquote> "I commend the authors on a fantastic literature review of my domain. The authors
+                          accurately cite a broad array of the relevant literature. There were no relevant articles
+                          missing.
+                          I do not have any suggested changes because I think the literature is very good as it is. ...I
+                          was
+                          tickled by the unification of citations from people that are
+                          often perceived to be in opposing theoretical camps. ...I signed this review because I hope
+                          that
+                          the authors send me a copy when they get it published. I find the work fascinating and I would
+                          like to refer to their in my own work."
+                        </blockquote> In addition to technical comments that helped us to improve our work, the two
+                        roboticists said "[this paper presents] an interesting and out-of-the-box way of addressing
+                        concept
+                        acquisition" and "this paper makes a significant contribution to the existing literature." In
+                        the
+                        end, my research productivity for my M.S. came to rest at
+                        <font face="Times">&#960;</font> (11 papers in 3.5 years). <p>
+                          <hr><br>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <div id="full-publication-list" style="display: none;">
                   <br>
-                  <div style="text-align:right; float:right;">(2019)&nbsp;</div>
-                  <a href="research/griffith2019.pdf">Transforming Multiple Visual Surveys of a Natural Environment Into
-                    Time-Lapses.</a>
-                  <br>
-                  <!-- [<a href="">summary</a>]  -->
-                  [<span class="summary-link" data-target="summary1">summary</span>]
-                  [<a href="files/natural_environment_monitoring_at_georgia_tech.pdf">slides</a>]
-                  [<a href="phd_demo.mp4">video</a>]
-                  [<a href="https://dream.georgiatech-metz.fr/datasets/">dataset</a>]
-                  <br>
-                  Shane Griffith, Frank Dellaert, and Cedric Pradalier.<br>
-                  <i>International Journal of Robotics Research (IJRR).</i> <br>
+                  <hr>
+                  <h5>FULL PUBLICATION LIST</h5>
+
+                  <font class="maincontent" face="Baskerville" style="font-size:14px">Dissertation and Thesis</font>
                   <p>
-                  <div style="text-align:right; float:right;">(2016)&nbsp;</div>
-                  <a href="research/griffith_pradalier_bmvc_2016.pdf">Reprojection Flow for Image Registration Across
-                    Seasons.</a>
-                  <br>
-                  Shane Griffith and Cedric Pradalier.<br>
-                  <i>British Machine Vision Conference (BMVC)</i>, York, UK. <br>
-                  <div id="summary1" style="display: none;">
+                  <p>
+                  <ul>
+                    <div style="text-align:right; float:right;">(2019)&nbsp;</div>
+                    <a href="research/griffith_dissertation.pdf">Map-centric visual data association across seasons in a
+                      natural environment.</a> <br>
+                    Ph.D. Dissertation. Georgia Institute of Technology. <br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2011)&nbsp;</div>
+                    <a href="research/griffith_thesis.pdf">Separating containers from non-containers: <br>A framework
+                      for
+                      learning behavior-grounded object categories.</a> <br>
+                    M.S. Thesis. Iowa State University. <br>
+                    <p>
+                  </ul>
+
+
+                  <font face="Baskerville" style="font-size:14px">Journals/Conferences/Workshops</font>
+                  <p>
+                  <p>
+                  <ul>
+                    <p>
+                    <div style="text-align:right; float:right;">(2019)&nbsp;</div>
+                    <a href="research/griffith2019.pdf">Transforming Multiple Visual Surveys of a Natural Environment
+                      Into
+                      Time-Lapses.</a> [<a href="phd_demo.mp4">video</a>] <br>
+                    Team: Shane Griffith, Frank Dellaert, and Cedric Pradalier.<br>
+                    <i>International Journal of Robotics Research (IJRR)</i><br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2017)&nbsp;</div>
+                    <a href="research/griffith_et_al_2017.pdf">Symphony Lake Dataset.</a>[<a
+                      href="http://dream.georgiatech-metz.fr/?q=node/76">files</a>]<br>
+                    Team: Shane Griffith, Georges Chahine, and Cedric Pradalier.<br>
+                    <i>International Journal of Robotics Research (IJRR)</i>, 36, 1151-1158.<br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2016)&nbsp;</div>
+                    <a href="research/griffith_pradalier_bmvc_2016.pdf">Reprojection Flow for Image Registration Across
+                      Seasons.</a> <br>
+                    Team: Shane Griffith and Cedric Pradalier.<br>
+                    <i>British Machine Vision Conference (BMVC)</i>, York, UK.<br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2016)&nbsp;</div>
+                    <a href="research/griffith_pradalier_JFR_2016.pdf">Survey Registration for Long-Term Natural
+                      Environment
+                      Monitoring.</a> <br>
+                    Team: Shane Griffith and Cedric Pradalier.<br>
+                    <i>Journal of Field Robotics</i><br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2015)&nbsp;</div>
+                    <a href="research/griffith_fsr_2015.pdf"> A Spatially and Temporally Scalable Approach for Long-Term
+                      Lakeshore Monitoring.</a> <br>
+                    Team: Shane Griffith and Cedric Pradalier. <br>
+                    <i>Field and Service Robotics (FSR)</i>, Toronto, Canada.<br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2015)&nbsp;</div>
+                    <a href="research/griffith_MVIGRO_2015.pdf"> Robot-Enabled Lakeshore Monitoring Using Visual SLAM
+                      and
+                      SIFT Flow.</a> <br>
+                    Team: Shane Griffith, Frank Dellaert, and Cedric Pradalier. <br>
+                    <i>RSS Workshop on Multi-View Geometry in Robotics</i>, Rome, Italy.<br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2014)&nbsp;</div>
+                    <a href="research/iser2014.pdf">Towards Autonomous Lakeshore Monitoring.</a> <br>
+                    Team: Shane Griffith, Paul Drews, and Cedric Pradalier. <br>
+                    <i>International Symposium on Experimental Robotics (ISER)</i>, Marrakech, Morocco. <br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2013)&nbsp;</div>
+                    <a href="research/nips2013.pdf">Policy Shaping: Integrating Human Feedback with Reinforcement
+                      Learning.</a> [<a href="research/nips2013_appendix.pdf">appendix</a>] [<a
+                      href="research/Advise.py">code</a>] <br>
+                    Team: Shane Griffith, Kaushik Subramanian, Jon Scholz, Charles Isbell, and Andrea Thomaz.<br>
+                    <i>Advances in Neural Information Processing Systems (NIPS)</i>, 2625-2633, Lake Tahoe, Nevada. <br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2012)&nbsp;</div>
+                    <a href="research/water_paper__.pdf">Object Categorization in the Sink: Learning Behavior--Grounded
+                      Object Categories With Water</a><br>
+                    Team: Shane Griffith, Vlad Sukhoy, Todd Wegter, and Alex Stoytchev.<br>
+                    <i>ICRA Workshop on SPME</i>, St. Paul, Minnesota.<br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2012)&nbsp;</div>
+                    <a href="research/IEEEtran_AMD_2011_preprint - without pics.pdf">A Behavior-Grounded Approach to
+                      Forming
+                      Object Categories:<br> Separating Containers from Non-Containers.</a> <br>
+                    Team: Shane Griffith, Jivko Sinapov, Vlad Sukhoy, and Alex Stoytchev,<br>
+                    <i>IEEE Transactions on Autonomous Mental Development (TAMD)</i>, 4:1, 54-69. <br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2011)&nbsp;</div>
+                    <a href="research/griffith_Humanoids.pdf">Using Sequences of Movement Dependency Graphs to Form
+                      Object
+                      Categories.</a> <br>
+                    Team: Shane Griffith, Vlad Sukhoy, and Alex Stoytchev.<br>
+                    <i>Humanoids</i>, 715-720, Bled, Slovenia. <br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2011)&nbsp;</div>
+                    <a href="research/imitation_paper_final.pdf"> Toward Imitating Object Manipulation Tasks Using
+                      Sequences
+                      of Movement Dependency Graphs.</a> <br>
+                    Team: Vlad Sukhoy, Shane Griffith, and Alex Stoytchev.<br>
+                    <i>RSS Workshop on The State of Imitation Learning</i>, Los Angeles, California. <br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2011)&nbsp;</div>
+                    <a href="research/IJRR_2011_preprint.pdf">Interactive Object Recognition Using Proprioceptive and
+                      Auditory Feedback.</a><br>
+                    Team: Jivko Sinapov, Taylor Bergquist, Connor Schenck, Ugonna Ohiri, Shane Griffith, and Alex
+                    Stoytchev
                     <br>
-                    Vision is one of the primary sensory modalities of animals and robots, yet among robots it still has
-                    limited power in natural environments. Dynamic processes of Nature continuously change how an
-                    environment looks, which work against appearance-based methods for visual data association. As a
-                    robot is deployed again and again, the possibility of finding correspondences diminishes between
-                    surveys increasingly separated in time. This is a major limitation of intelligent systems targeted
-                    for precision agriculture, search and rescue, and environment monitoring. So for my PhD Cedric and I
-                    saught a new approach to visual data association to overcome the variation in appearance of a
-                    natural environment, as it was experienced by a field robot over several years.
-
+                    <i>International Journal of Robotics Research (IJRR)</i>, 30:1, 1250-1262.
                     <p>
-                      We found success with a map-centric approach, which builds on 3D vision to achieve visual
-                      data association across seasons. We first created the Symphony Lake Dataset, which consists
-                      of fortnightly visual surveys of a 1.3 km lakeshore captured from an autonomous surface vehicle
-                      over three years. We then established dense correspondence as a technique to both provide robust
-                      visual data association and to eliminate the variation in viewpoint between surveys. Given a
-                      consistent map and localized poses, visual data association across seasons is achieved with the
-                      integration of map point priors and geometric constraints within the dense correspondence image
-                      alignment optimization. We called this algorithm "Reprojection Flow".
-
-                    <p>
-                      We presented the first work to see through the variation in appearance across seasons in
-                      a natural environment using map point priors and localized poses. Our algorithm for map-anchored
-                      dense correspondence showed a substantial gain on visual data association in the midst of the
-                      difficult variation in appearance. Up to 37 surveys were transformed into year-long time-lapses at
-                      the scenes where their maps were consistent. This indicates that, at a time when frequent
-                      advancements are made towards robust visual data association, the spatial information in a map may
-                      be able to close the distance where hard cases have persisted between observations.
-                  </div>
-                  <p>
-                  <div style="text-align:right; float:right;">(2013)&nbsp;</div>
-                  <a href="research/nips2013.pdf">Policy Shaping: Integrating Human Feedback with Reinforcement
-                    Learning.</a> <br>
-                  [<span class="summary-link" data-target="summary2">summary</span>]
-                  [<a href="files/policy_shaping.pdf">slides</a>]
-                  [<a href="research/Advise.py">code</a>]
-                  [<a href="research/nips2013_appendix.pdf">appendix</a>]
-                  <br>
-                  Shane Griffith, Kaushik Subramanian, Jon Scholz, Charles Isbell, and Andrea Thomaz.<br>
-                  <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, 2625-2633, Lake Tahoe, Nevada.
-                  <br>
-                  <div id="summary2" style="display: none;">
+                    <div style="text-align:right; float:right;">(2010)&nbsp;</div>
+                    <a href="research/Griffith_Containers_AAAI10.pdf">Interactive Categorization of Containers and
+                      Non-Containers by Unifying Categorizations Derived From Multiple Exploratory Behaviors.</a>
                     <br>
-                    I passed the Qual after investigating how robots might learn without being labeled defective.
-                    Although a large body of work already addresses how a robot might explore its environment in order
-                    to learn and adapt to it, the risks of exploration are commonly overlooked. Few papers addressed how
-                    a robot could reliably stay out of harm's way if it is left to freely explore. After I saw this
-                    problem, my research goal was to investigate how robots could avoid committing serious errors while
-                    exploring.
-
+                    Team: Shane Griffith and Alex Stoytchev.<br>
+                    <i>Association for the Advancement of Artificial Intelligence (AAAI)</i>, Atlanta, Georgia.<br>
                     <p>
-                      A step towards error free learning is made possible with a new insight about how to learn from
-                      human feedback. Feedback interpreted as a direct label on the optimality of an action can provide
-                      a way to eliminate hazardous sections of the state space. This is in contrast to most previous
-                      work in which feedback is interpreted as a reward (e.g., reward shaping), which creates something
-                      like a trail of breadcrumbs for coaxing an agent out of an undesirable or dangerous area. Our new
-                      ``policy shaping'' approach to interactive machine learning called for a fundamentally new way to
-                      use feedback with reinforcement learning.
-
+                    <div style="text-align:right; float:right;">(2010)&nbsp;</div>
+                    <a href="research/griffith_ICRA_Containers.pdf">How to Separate Containers from Non-Containers?<br>
+                      A
+                      Behavior-Grounded Approach to Acoustic Object Categorization.</a> <br>
+                    Team: Shane Griffith, Jivko Sinapov, Vlad Sukhoy, and Alex Stoytchev.<br>
+                    <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, 1852-1859, Anchorage,
+                    Alaska.
+                    <br>
                     <p>
-                      We ended up deriving a simple, yet rigorous, information theoretic algorithm to maximize the
-                      information gained from human feedback, which we named <b>Advise</b>. Our experiments showed
-                      <b>Advise</b> in some cases significantly outperformed state-of-the-art methods, and was robust to
-                      noise. It also eliminates the ad hoc parameter tuning common of methods that interpret feedback as
-                      a reward. These advancements were presented at the 1st Biennial Conference on
-                      Reinforcement Learning and Decision Making (RLDM), where it was one of the top four papers, and
-                      published in the 27th Annual Conference on Neural Information Processing Systems (NIPS).
-                  </div>
+                    <div style="text-align:right; float:right;">(2009)&nbsp;</div>
+                    <a href="research/Bergquist_IROS2009_SPMM.pdf">Interactive Object Recognition Using Proprioceptive
+                      Feedback.</a><br>
+                    Team: Taylor Bergquist, Connor Schenck, Ugonna Ohiri, Jivko Sinapov, Shane Griffith, and Alex
+                    Stoytchev<br>
+                    <i>IROS Workshop on Semantic Perception for Mobile Manipulation</i>, St. Louis, Missouri. <br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2009)&nbsp;</div>
+                    <a href="research/Sahai_Writing_RSS09.pdf">Interactive Identification of Writing Instruments and
+                      Writable Surfaces by a robot.</a> <br>
+                    Team: Ritika Sahai, Shane Griffith, and Alex Stoytchev.<br>
+                    <i>RSS Workshop on Mobile Manipulation in Human Environments</i>, Seattle, Washington. <br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2009)&nbsp;</div>
+                    <a href="research/Griffith_Containers_ICDL09.pdf"> Toward Interactive Learning of Object Categories
+                      by a
+                      Robot:<br> A Case Study with Container and Non-Container Objects.</a> <br>
+                    Team: Shane Griffith, Jivko Sinapov, Matt Miller, and Alex Stoytchev.<br>
+                    <i>8th IEEE International Conference on Development and Learning (ICDL)</i>, Shanghai, China. <br>
+                  </ul>
+
                   <p>
-                  <div style="text-align:right; float:right;">(2012)&nbsp;</div>
-                  <a href="research/IEEEtran_AMD_2011_preprint - without pics.pdf">A Behavior-Grounded Approach to
-                    Forming Object Categories:<br> Separating Containers from Non-Containers.</a>
-                  <br>
-                  [<span class="summary-link" data-target="summary3">summary</span>]
-                  [<a href="files/object_categorization_in_the_sink.pdf">slides</a>]
-                  [<a href="https://www.youtube.com/watch?v=xvEJdMFx1to">videos</a>]
-                  <br>
-                  Shane Griffith, Jivko Sinapov, Vlad Sukhoy, and Alex Stoytchev,<br>
-                  <i>IEEE Transactions on Autonomous Mental Development (TAMD)</i>, 4:1, 54-69. <br>
-                  <div id="summary3" style="display: none;"><br>
-                    I earned my M.S. after 3.5 years of studying what a container is, and how a humanoid robot can learn
-                    what a container is. Although a growing body of literature in robotics addressed many different
-                    container manipulation problems, individual papers only chipped away at isolated problems one by
-                    one. This meant that the algorithms for one domain were not directly applicable to other domains.
-                    After I saw this problem, the goal of my thesis was to identify how a robot could start to learn
-                    about containers in a more general way.
-
+                    <font face="Baskerville" style="font-size:14px">Accepted Abstracts/Presentations</font>
+                  <p>
+                  <ul>
+                    <div style="text-align:right; float:right;">(2016)&nbsp;</div>
+                    <a href="research/griffith_pradalier_ailta_2016.pdf">Towards Reprojection Flow for Image
+                      Registration
+                      Across Seasons.</a><br>
+                    Team: Shane Griffith and Cedric Pradalier.<br>
+                    <i>ICRA Workshop on AI for Long-Term Autonomy</i>, Stockholm, Sweden.<br>
                     <p>
-                      Because people have a representation of containers that is generalizable across many different
-                      container manipulation problems, I looked to psychology for all the information on the origins of
-                      container learning. Psychologists observed that infants form an abstract spatial category for
-                      containers, which allows them to apply their knowledge to novel containers. At the time, however,
-                      the current theories of object categorization weren't clear about exactly how infants form an
-                      object category for containers. Consequently, I looked more deeply into the psychology literature
-                      in order to try and understand how infants learn.
-
+                    <div style="text-align:right; float:right;">(2013)&nbsp;</div>
+                    <a href="research/rldm2013.pdf">Policy Shaping: Integrating Human Feedback with Reinforcement
+                      Learning.</a><br>
+                    Team: Shane Griffith, Kaushik Subramanian, Jon Scholz, Charles Isbell, and Andrea Thomaz.<br>
+                    <i>1st Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM)</i>,
+                    Princeton,
+                    New Jersey.<br>
                     <p>
-                      By citing many different theories and observations from psychology, I extrapolated an explanation
-                      for how infants learn object categories. As a result of the expertise of the whole team, we were
-                      able to create a computational framework for learning object categories in a similar way by a
-                      robot. Our experiments with containers showed that this method of object categorization really
-                      works, and it works really well.
-
+                    <div style="text-align:right; float:right;">(2009)&nbsp;</div>
+                    <a href="research/Sahai_Writing_ICDL09.pdf">Toward Learning to Write by Identifying Writable
+                      Surfaces.</a> <br>
+                    Team: Ritika Sahai, Shane Griffith, and Alex Stoytchev.<br>
+                    <i>8th IEEE International Conference on Development and Learning (ICDL)</i>, Poster Abstract,
+                    Shanghai,
+                    China.<br>
                     <p>
-
-                      Our work was well received when we submitted it to the IEEE Transactions on Autonomous Mental
-                      Development (TAMD) for publication in their journal. An eminent developmental psychologist
-                      reviewed the object categorization theory (the expertise of
-                      the other two reviewers was robotics), and in her "comments to the author" that we received when
-                      the paper was accepted, she signed her name in her review (reviews are usually anonymous) and
-                      said:
-                    <blockquote> "I commend the authors on a fantastic literature review of my domain. The authors
-                      accurately cite a broad array of the relevant literature. There were no relevant articles missing.
-                      I do not have any suggested changes because I think the literature is very good as it is. ...I was
-                      tickled by the unification of citations from people that are
-                      often perceived to be in opposing theoretical camps. ...I signed this review because I hope that
-                      the authors send me a copy when they get it published. I find the work fascinating and I would
-                      like to refer to their in my own work."
-                    </blockquote> In addition to technical comments that helped us to improve our work, the two
-                    roboticists said "[this paper presents] an interesting and out-of-the-box way of addressing concept
-                    acquisition" and "this paper makes a significant contribution to the existing literature." In the
-                    end, my research productivity for my M.S. came to rest at
-                    <font face="Times">&#960;</font> (11 papers in 3.5 years). <p>
-                  </div>
-                </ul>
-              </div>
+                    <div style="text-align:right; float:right;">(2009)&nbsp;</div>
+                    <a href="research/Griffith_Containers_HRI09.pdf">Learning to Detect Containers with Human
+                      Assistance.</a><br>
+                    Team: Shane Griffith.<br>
+                    <i>HRI Pioneers Workshop</i>, Workshop Abstract, San Diego, California.<br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2008)&nbsp;</div>
+                    <a href="research/Griffith_Containers_ICDL08.pdf">Toward Learning to Detect and Use
+                      Containers.</a><br>
+                    Team: Shane Griffith, Jivko Sinapov, and Alex Stoytchev.<br>
+                    <i>7th IEEE International Conference on Development and Learning (ICDL)</i>, Poster Abstract,
+                    Monterey,
+                    California.<br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2008)&nbsp;</div>
+                    <a href="">Holonomic Architecture for Networked Cooperative Robots.</a><br>
+                    Team: Alex Baumgarten, John Dashner, Shane Griffith, Kyle Miller, Mark Rabe, Chris Tott, Jon Watson,
+                    Joshua Watt, and Nicola Elia.<br>
+                    <i>IEEE International Conference on Electro/Information Technology (EIT)</i>, Undergraduate Student
+                    Paper Competition, Ames, Iowa. <br>
+                    <p>
+                    <div style="text-align:right; float:right;">(2009, 2010, 2011)&nbsp;</div>
+                    <i>ISU ETC/WINVR</i>
+                    <p>
+                    <div style="text-align:right; float:right;">(2007, 2008)&nbsp;</div>
+                    <i>ISU Undergraduate Research Symposium</i><br>
+                  </ul>
+                  <hr>
+                </div>
             </td>
           </tr>
         </table>
@@ -326,10 +582,10 @@
         var target = document.getElementById(targetId);
         if (target.style.display === 'none') {
           target.style.display = 'block';
-          e.target.textContent = 'hide summary';
+          e.target.textContent = '-';
         } else {
           target.style.display = 'none';
-          e.target.textContent = 'summary';
+          e.target.textContent = '+';
         }
       });
     });
