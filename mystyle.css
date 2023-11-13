@@ -10,21 +10,21 @@ body,
   margin: auto;
   color: #1D1F21;
   /* Dark text color */
-  background-color: #FFF3F6;
+  background-color: #FAFAFF;
   /* Hazy sky color */
 }
 
 td.maincontent {
   font-family: Arial;
   font-size: 75%;
-  background: #FFF3F6;
+  background: #FAFAFF;
   /* Hazy sky color */
 }
 
 
 .background {
   /* background-color: #FFF3F6; */
-  background-color: #FFF3F6;
+  background-color: #FAFAFF;
   /* Hazy sky color */
 }
 
