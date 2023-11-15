@@ -6,4 +6,36 @@
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
+    <!-- Add entries for each PDF and other files hosted on your site -->
+    <url> <loc>https://shanedgriffith.github.io/files/2012_ICRA_SPME_griffith_et_al_slides.pdf</loc> </url>
+    <url> <loc>https://shanedgriffith.github.io/files/2013_NIPS_griffith_et_al_slides.pdf</loc> </url>
+    <url> <loc>https://shanedgriffith.github.io/files/2018_patent_chande_et_al_slides.pdf</loc> </url>
+    <url> <loc>https://shanedgriffith.github.io/files/2019_dissertation_griffith_et_al_slides.pdf</loc> </url>
+    <url> <loc>https://shanedgriffith.github.io/files/2020_patent_griffith_et_al_slides.pdf</loc> </url>
+
+
+    <url>
+        <loc>https://shanedgriffith.github.io/files/multi-sensor_sequential_calibration_system_at_tusimple.pdf</loc>
+    </url>
+    <url>
+        <loc>https://shanedgriffith.github.io/files/viewpoint_path_modeling.pdf</loc>
+    </url>
+    <!-- Add more URLs in a similar fashion -->
+    <!-- ... -->
+    <!-- Example for a PDF in a subdirectory -->
+    <url>
+        <loc>https://shanedgriffith.github.io/research/rldm2013.pdf</loc>
+    </url>
+    <url>
+        <loc>https://shanedgriffith.github.io/research/nips2013.pdf</loc>
+    </url>
+    <!-- ... -->
+    <!-- Add entries for other file types like .mp4, .py hosted on your site -->
+    <url>
+        <loc>https://shanedgriffith.github.io/phd_demo.mp4</loc>
+    </url>
+    <url>
+        <loc>https://shanedgriffith.github.io/research/Advise.py</loc>
+    </url>
+    <!-- ... -->
 </urlset>
