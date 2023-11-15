@@ -6,36 +6,38 @@
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
-    <!-- Add entries for each PDF and other files hosted on your site -->
     <url> <loc>https://shanedgriffith.github.io/files/2012_ICRA_SPME_griffith_et_al_slides.pdf</loc> </url>
     <url> <loc>https://shanedgriffith.github.io/files/2013_NIPS_griffith_et_al_slides.pdf</loc> </url>
     <url> <loc>https://shanedgriffith.github.io/files/2018_patent_chande_et_al_slides.pdf</loc> </url>
     <url> <loc>https://shanedgriffith.github.io/files/2019_dissertation_griffith_et_al_slides.pdf</loc> </url>
     <url> <loc>https://shanedgriffith.github.io/files/2020_patent_griffith_et_al_slides.pdf</loc> </url>
-
-
-    <url>
-        <loc>https://shanedgriffith.github.io/files/multi-sensor_sequential_calibration_system_at_tusimple.pdf</loc>
-    </url>
-    <url>
-        <loc>https://shanedgriffith.github.io/files/viewpoint_path_modeling.pdf</loc>
-    </url>
-    <!-- Add more URLs in a similar fashion -->
-    <!-- ... -->
-    <!-- Example for a PDF in a subdirectory -->
-    <url>
-        <loc>https://shanedgriffith.github.io/research/rldm2013.pdf</loc>
-    </url>
-    <url>
-        <loc>https://shanedgriffith.github.io/research/nips2013.pdf</loc>
-    </url>
-    <!-- ... -->
-    <!-- Add entries for other file types like .mp4, .py hosted on your site -->
-    <url>
-        <loc>https://shanedgriffith.github.io/phd_demo.mp4</loc>
-    </url>
-    <url>
-        <loc>https://shanedgriffith.github.io/research/Advise.py</loc>
-    </url>
-    <!-- ... -->
+<url> <loc>https://shanedgriffith.github.io/research/2008_ICDL_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2009_HRI_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2009_ICDL_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2009_ICDL_sahai_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2009_IROS_bergquist_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2009_RSS_sahai_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2010_AAAI_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2010_ICRA_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2011_Humanoids_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2011_ICRA_SPME_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2011_IJRR_sinapov_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2011_RSS_WSIL_sukhoy_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2011_TAMD_preprint_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2011_thesis_griffith.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2012_TAMD_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2013_NIPS_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2013_NIPS_griffith_et_al_supplemental.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2013_RLDM_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2014_ISER_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2015_MVIGRO_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2015_fsr_griffith_pradalier.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2016_AILTA_griffith_pradalier.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2016_BMVC_griffith_pradalier.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2016_JFR_griffith_pradalier.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2017_ijrr_griffith_et_al.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2019_IJRR_griffith.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/2019_dissertation_griffith.pdf</loc> </url>
+<url> <loc>https://shanedgriffith.github.io/research/Advise.py</loc> </url>
+    <url> <loc>https://shanedgriffith.github.io/2019_dissertation_griffith_demo.mp4</loc> </url>
 </urlset>
